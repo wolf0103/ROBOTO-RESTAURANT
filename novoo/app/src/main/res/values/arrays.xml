@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Pratos">
+        <item>Lasanha</item>
+        <item>Sopa Lentilha</item>
+        <item>Bife á parmegiana</item>
+        <item>Frango a milanesa</item>
+        <item>Feijoada</item>
+
+    </string-array>
+
+
+
+
+
+</resources>

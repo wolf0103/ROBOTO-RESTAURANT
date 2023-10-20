@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Novoo.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#000000"
+            app:popupTheme="@style/Theme.Novoo.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Ilasanha"
+        android:layout_width="wrap_content"
+        android:layout_height="193dp"
+        android:layout_margin="70dp"
+
+        android:layout_marginTop="100dp"
+        android:src="@drawable/lasanha"
+        app:civ_border_color="#FF000000"
+
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="300dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textdescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView" />
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
